@@ -17,6 +17,8 @@ void JSONParse();
 
 void UploadFile();
 
+void lisentNetworkStatus();
+
 int main(int argc, char * argv[]) {
     
     httpGet();
@@ -26,6 +28,8 @@ int main(int argc, char * argv[]) {
     JSONParse();
     
     UploadFile();
+    
+    lisentNetworkStatus();
     
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
@@ -135,4 +139,31 @@ void UploadFile(){
     
     //设置无缓存
     [operation setCacheResponseBlock:nil];
+}
+
+
+#pragma mark --监听网路状态
+void lisentNetworkStatus(){
+    //设置ping的地址
+    NSURL *url = [[NSURL alloc]initWithString:@"http://www.baidu.com/"];
+    
+    AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:url];
+    
+    //获取队列容器
+    NSOperationQueue *operationQueue = [manager operationQueue];
+    
+    [manager.reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        switch (status) {
+            case AFNetworkReachabilityStatusReachableViaWWAN:
+            case AFNetworkReachabilityStatusReachableViaWiFi:
+                NSLog(@"当前是wifi网路");
+                [operationQueue setSuspended:NO];
+                break;
+            default:
+                NSLog(@"当前无网路");
+                [operationQueue setSuspended:YES];
+                break;
+        }
+    }];
+    [manager.reachabilityManager startMonitoring];
 }
