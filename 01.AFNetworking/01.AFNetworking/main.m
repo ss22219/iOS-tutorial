@@ -85,11 +85,11 @@ void httpGet(){
 void JSONParse(){
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     
-    //设置为http通用序列化 默认是JSON
+    //设置JSON序列化
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
     
     [manager GET:@"http://api.openweathermap.org/data/2.5/weather?q=London,uk" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        //responeseObject 为NSData
+        //responeseObject 为NSDictionary
         
         NSLog(@"success:\r\n%@", responseObject);
         
