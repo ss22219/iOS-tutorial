@@ -4,3 +4,5 @@
 1.AFNetworking
 
 2.CoreImage
+
+3.NSAttributedString
