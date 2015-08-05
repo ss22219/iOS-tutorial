@@ -17,12 +17,16 @@
     //初始化3个控制器
     UIViewController *vc1 = [UIViewController new];
     vc1.view.backgroundColor = [UIColor redColor];
+    vc1.title = @"VC1";
     UIViewController *vc2 = [UIViewController new];
     
     vc2.view.backgroundColor = [UIColor blueColor];
+    vc2.title = @"VC2";
+    
     UIViewController *vc3 = [UIViewController new];
     
     vc3.view.backgroundColor = [UIColor yellowColor];
+    vc3.title = @"VC3";
     NSArray *controllers = @[vc1,vc2,vc3];
     
     
@@ -42,8 +46,20 @@
     
     //给每个选项设置图标
     item1.image = [UIImage imageNamed:@"bottom_tab1_pre"];
+    
+    //设置UIImage RenderingModel为AlwaysOriginal，表示一直使用原本的颜色，不启用Tint
+    item1.selectedImage = [[UIImage imageNamed:@"bottom_tab1_unpre"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    //其他图片默认开启Tinit Rendering
     item2.image = [UIImage imageNamed:@"bottom_tab2_pre"];
+    item2.selectedImage = [UIImage imageNamed:@"bottom_tab2_unpre"];
     item3.image = [UIImage imageNamed:@"bottom_tab3_pre"];
+    item3.selectedImage = [UIImage imageNamed:@"bottom_tab3_unpre"] ;
+    
+    
+    //为UITabBarItem设置默认的文字属性 选中时颜色为黑色
+    [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName: [UIColor blackColor] } forState:UIControlStateSelected];
+    
     
     //设置当前窗口为主窗口并显示
     [self.window makeKeyAndVisible];
