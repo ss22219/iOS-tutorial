@@ -1,0 +1,6 @@
+#include "GONMarkupParser.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/GONMarkupParser" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GONMarkupParser" "${PODS_ROOT}/Headers/Public/NSString+Color"
+OTHER_LDFLAGS = ${GONMARKUPPARSER_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

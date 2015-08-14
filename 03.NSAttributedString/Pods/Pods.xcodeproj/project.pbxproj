@@ -1,0 +1,1063 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01ACAFA0CB198113A214C8307EFCF8B9 /* GONMarkupBold.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8562D56E5CE64425A4B154EBE92BD3 /* GONMarkupBold.h */; };
+		07560BACA1CACEFBAD7D4E0D197A4953 /* GONMarkupBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = C62FEB75339395403E1185AFE6A85960 /* GONMarkupBlock.h */; };
+		121811FE52F98334099AF7DED4977584 /* GONMarkupAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDF76A8119845358CE61A547877058C /* GONMarkupAlignment.h */; };
+		164B44B11E9DEE0D4A705F3D4F4E9706 /* GONMarkupParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 834EE4C4C2BC6C224BED186BE379E3A4 /* GONMarkupParser.h */; };
+		16BDB29EB18A735486CDC0C6C824A5E9 /* GONMarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 574C2B6E1A717D9E282F76E06C8E7D45 /* GONMarkupParser.m */; };
+		19DF5319F1BD8F340FEB92AB742CBF14 /* GONMarkupLineStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D42ECBA44F8F3373C46FFECA955F5981 /* GONMarkupLineStyle.m */; };
+		1BCACEE4D86BE7BA7AE7D809A062B97E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BC1C9DF0E420E10DBE8CAB84FECE21 /* Foundation.framework */; };
+		243F82F2866B62C3C6D2E7EA58427B7B /* NSString+Color-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB95B0977FD4B15BFFA7C14A465029 /* NSString+Color-dummy.m */; };
+		2D8C6656E0EE0EE4467F7746EBF3512D /* GONMarkupListItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CE098B34B4B76C646DA5B05CE060F84E /* GONMarkupListItem.h */; };
+		3451A851DA3ACF3A7E2E5863AE9329A2 /* Pods-03.NSAttributedStringTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B74E493DB7ECD7E86C31D63BD330039 /* Pods-03.NSAttributedStringTests-dummy.m */; };
+		34EBE5302311F79D0E3B63256D9E5A9A /* GONMarkupParagrap.m in Sources */ = {isa = PBXBuildFile; fileRef = E43A898CCE0528AB9D9EDFBC0479383B /* GONMarkupParagrap.m */; };
+		3663F075C3B37BB1876D3EABC77BC741 /* GONMarkup.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF390BE0697084084CA8840EE5F3E99 /* GONMarkup.h */; };
+		3C7D56DB0E4351300F66E938015D6A02 /* GONMarkupParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BBAE827E58F5F31818827104084A13 /* GONMarkupParser-dummy.m */; };
+		3D2032A37BC4089F5D2EC9F74B46AD6B /* UITextView+GONMarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7262C78B0033C8AAE0A7DE2546A230C /* UITextView+GONMarkupParser.m */; };
+		407681E8B063B7EF32278A190BB0DCD1 /* UITextField+GONMarkupParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D36D9A3ED3E41FCD2BC0E7E45077316 /* UITextField+GONMarkupParser.h */; };
+		4D796456E907598EFE5592AAF58FEE90 /* GONMarkupParser_All.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E210DCC344F123932173BAD2F1A59C /* GONMarkupParser_All.h */; };
+		4ED987B42FA8F7B5383CC265C71771BF /* GONMarkupBold.m in Sources */ = {isa = PBXBuildFile; fileRef = C78B6918FF796020B190B562D807B757 /* GONMarkupBold.m */; };
+		50722EEE76DBD1473BE9389E125AD36D /* GONMarkupParserUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBB85A0461610B9E2BCC73347C70148 /* GONMarkupParserUtils.h */; };
+		5244CBC87E4EC58F6CCB09666605F7B1 /* GONMarkupNamedFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D20C16CA7394DAC6F8A0A75F522DB30 /* GONMarkupNamedFont.m */; };
+		5C40EECEA77E27EB227BA61BECB81BC2 /* GONMarkupColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2693C808B4CCC827B409E6CFD7FF3033 /* GONMarkupColor.h */; };
+		5C558FBE0425E3BE71BA98D2A5EB26D6 /* GONMarkupDec.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAED6A70DD134C006CACEE0C6ABA84 /* GONMarkupDec.m */; };
+		5CF87C0F6D75AECE93A05D739E16D7D5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54474B1CCE3A38704D27004152DEB964 /* CoreText.framework */; };
+		5E59FEA17ECD6B5336A8E0CBCCAA0D78 /* GONMarkupParserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2773B3FF40109288B756A9F9912AC2A3 /* GONMarkupParserManager.m */; };
+		6292ACCF5C8A3CC15C0DA6565D608CE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BC1C9DF0E420E10DBE8CAB84FECE21 /* Foundation.framework */; };
+		63086D55EE26F01A727A976A5E2ED180 /* GONMarkupNamedColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 999247A52058E902732150930A6824A7 /* GONMarkupNamedColor.h */; };
+		6419151B9C321EF04B9E512807FA40E3 /* GONMarkupFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 231C0240D70B648EB57C7BBD2A02E364 /* GONMarkupFont.h */; };
+		67D248FBB98485BBC1A15EF263D6FAF0 /* GONMarkupDefaultMarkups.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B25E7FAC2415A60B659E6132E5166CF /* GONMarkupDefaultMarkups.h */; };
+		6BEDC18A2ED6BBAFAF8126A6E341BE84 /* UITextView+GONMarkupParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FDD83536EB3AD1FFD25F2C5A03FB55 /* UITextView+GONMarkupParser.h */; };
+		6DE0CAE3C4F5E0A3EE928DB6313325E4 /* GONMarkupAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B090115FC3015B7BFC3A7ADF2483DD /* GONMarkupAnchor.m */; };
+		6F40DBD2E9CA5662A746F7477C870280 /* GONMarkupSimple.h in Headers */ = {isa = PBXBuildFile; fileRef = E9FCF8E7D6BA242C384E77B86F2FA59E /* GONMarkupSimple.h */; };
+		761EF9592A7E8F714EC76A72C625DAA7 /* GONMarkupParserUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 238FFBCE8DA4B6403517425731FD1F9A /* GONMarkupParserUtils.m */; };
+		7E2A9A21B3D1021B5C368D1ECEBA4562 /* GONMarkupBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB2087380B90F6DDA296873CB7EFBEF /* GONMarkupBlock.m */; };
+		87BB65CB3FEB65508F7859A30B6C6190 /* GONMarkupNamedFont.h in Headers */ = {isa = PBXBuildFile; fileRef = E46808431AA4BCD0ECFE79F1F872D690 /* GONMarkupNamedFont.h */; };
+		88FAE85BDF06D07C7CF414E76B778A69 /* GONMarkupAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7652B083918AD02837DB99945B05858F /* GONMarkupAlignment.m */; };
+		8E3060512676D6CF74450FF08C3D5CCD /* UILabel+GONMarkupParser.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFEC987D79C383D9930CCF9DE00E3C7 /* UILabel+GONMarkupParser.h */; };
+		91E0DE727901403F721572C4102ABB7F /* GONMarkupLineBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 29303240D33FDCFA53A701CC3410CDEF /* GONMarkupLineBreak.m */; };
+		93FD1FFCB416242E83F672360C739A99 /* GONMarkupFontTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = 912C5C7B5EF18CB88B33479EC58BB01A /* GONMarkupFontTraits.h */; };
+		96FB40EF1A7CCC16741A98E12ACDC13F /* GONMarkupItalic.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D256F681E904C55D72228065E81C3B6 /* GONMarkupItalic.h */; };
+		992097FDCA4AB03C839E96B1BCFE530B /* GONMarkupParser_Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F8C0FB0D3A4D48CA3C5C9354F9870B /* GONMarkupParser_Categories.h */; };
+		9AA07EE65F53FBE8E1C896C07A7FE04D /* GONMarkupDec.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C24422B9B322F4085A1B96795909D0 /* GONMarkupDec.h */; };
+		A271C20AE9AEBBF21E07C6376B608D63 /* GONMarkup+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3EC6F0E21E73FA317B87C947D0167 /* GONMarkup+Private.m */; };
+		AD00CBD594966C268AEDF97C6688D6D1 /* GONMarkupParagrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5B05202EEDECEAE7380AD40D55B74A /* GONMarkupParagrap.h */; };
+		AF65B6EA39B58B39EC6D55AEE327FD05 /* NSString+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FD60FCAADD1F196AA145A02F8256A2 /* NSString+Color.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AFF863B371C1CD680B99B7EC1E0A4CA3 /* GONMarkupParserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 211EF96606FD7ECBE58FD441B5FDF0B8 /* GONMarkupParserManager.h */; };
+		B088D6F4B83019CD2ACAAF1D025E0AFF /* UITextField+GONMarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A08DFFD283CE48E4495F8B953EDD95 /* UITextField+GONMarkupParser.m */; };
+		B198C7FFE889506B1D7EDAB725DDE0CA /* GONMarkupLineBreak.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A78E59999D68E0528E4A266BB79142 /* GONMarkupLineBreak.h */; };
+		B56C8E6D2F8127FBD4791F5457343C6A /* NSString+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 106036723B10C8844991DF17E1971BF4 /* NSString+Color.h */; };
+		B5DC3A10C2787D5E28B507F52B5CD3EA /* GONMarkupFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC5EB5D2BA589ADF0877D34FB81E1F /* GONMarkupFont.m */; };
+		BD34E7A84AACBFC12A0434E1A522D38D /* GONMarkupList.h in Headers */ = {isa = PBXBuildFile; fileRef = 0879646854C15F9AC72D992A96E3FC8E /* GONMarkupList.h */; };
+		BD8F10675057C91F4E66AD3FBE576E43 /* GONMarkupList.m in Sources */ = {isa = PBXBuildFile; fileRef = 763A17D975FEF54B3F57FD47B6469F47 /* GONMarkupList.m */; };
+		C1A8730EF367D35F42EB1898F9AD82A6 /* GONMarkupAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5911A86CBE3C509CE6672C6B576C29 /* GONMarkupAnchor.h */; };
+		C3C020F179BE05317740D2BA715BEFCF /* GONMarkupReset.h in Headers */ = {isa = PBXBuildFile; fileRef = 3421AF30E41B90B71248C1CD8ABBE58B /* GONMarkupReset.h */; };
+		C9AF1F525A6E351803E709BA624A62C3 /* Pods-03.NSAttributedString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0653B5A6BED71AB2A5BD243450D606A /* Pods-03.NSAttributedString-dummy.m */; };
+		CAC8B92249BF36C309E24D8F86581EFD /* UILabel+GONMarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F81F57329A7E19B252BC89A95FA175 /* UILabel+GONMarkupParser.m */; };
+		CE7BB14072B6335028E27933D2B662C9 /* GONMarkup+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 14CEDC2CC572964D995D3BA947404688 /* GONMarkup+Private.h */; };
+		D36C879C95711B771153454D57D645B8 /* GONMarkupSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF5FB42D985648932F155EBA9AC1C26 /* GONMarkupSimple.m */; };
+		D5CCD94BF57910967667889CF9E003E5 /* GONMarkupNamedColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435931A2AB2A9381030639D4391A4F2 /* GONMarkupNamedColor.m */; };
+		D8716D76018C7E71A5248B1FED005E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BC1C9DF0E420E10DBE8CAB84FECE21 /* Foundation.framework */; };
+		D8DF9B9D4AC10ABAF5BFA60ED5D6E5B0 /* GONMarkupLineStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C7CCF5DC6B3EFE845FC17526F3CD2FA /* GONMarkupLineStyle.h */; };
+		DC56B5291093F207E2F320FC6961AB2D /* GONMarkupReset.m in Sources */ = {isa = PBXBuildFile; fileRef = 301688CBE5342E22CDF4A19C4F5473E5 /* GONMarkupReset.m */; };
+		DF01185BDF07ACA4D9546CDF4BD19269 /* GONMarkupItalic.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CB00DE1DA813F168522123CCF1D3BB /* GONMarkupItalic.m */; };
+		E13D7667B830264DBCEDF56437B4E436 /* GONMarkupTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2B043032A96819571855D021C73CE7 /* GONMarkupTextStyle.h */; };
+		EA1EAC4515CB5CD8F612F27F3F518A3B /* GONMarkupListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3BAD9AF22EB17EB7B4CBE8B036CFB2 /* GONMarkupListItem.m */; };
+		EAEA0CD5F84AF09E90F5CFB93B7698C8 /* GONMarkupInc.h in Headers */ = {isa = PBXBuildFile; fileRef = AB25DD7E73926959234D92E992B7332F /* GONMarkupInc.h */; };
+		EDE587A88F16981A5692B654C1103812 /* GONMarkup.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A072A632B9593E874B810473798C1E /* GONMarkup.m */; };
+		F0B759C8E9435F4541584FB3570D6593 /* GONMarkupColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DE0AFD16EEA06BE5BFF2731D5A9A9F /* GONMarkupColor.m */; };
+		F242DA4E60FD57FC807320EB0F1423F4 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C39B9DDD6F254278B62813604D2D2F74 /* Pods-dummy.m */; };
+		F331DEB6E5BF54D957439DD4582515EC /* GONMarkupTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = B7284D1A4869900046A56C3698187772 /* GONMarkupTextStyle.m */; };
+		F4DB3B2DEAAC0FD5B89142975BBE62EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BC1C9DF0E420E10DBE8CAB84FECE21 /* Foundation.framework */; };
+		FAB5EFF6674EE7C4F3301D19CF99EE80 /* GONMarkupInc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA502CB6BA4FD4CFBE13EA300A2C999 /* GONMarkupInc.m */; };
+		FEF572AD29330B3430BC74A873A9D56F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BC1C9DF0E420E10DBE8CAB84FECE21 /* Foundation.framework */; };
+		FFFAA4AF07678A85A0FBC4D05B73CD66 /* GONMarkupFontTraits.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A73AEE9D9C061763EB4859EB5C7444 /* GONMarkupFontTraits.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7218A3A0A69D53F06539B4EF2058B115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A3DFBC332258F4A2126409E8DF00E8C;
+			remoteInfo = "NSString+Color";
+		};
+		B768DD69CBF3CC172643599CA9F6F09E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A3DFBC332258F4A2126409E8DF00E8C;
+			remoteInfo = "NSString+Color";
+		};
+		B9DF1A66246CC063878557FC02AA692B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A3DFBC332258F4A2126409E8DF00E8C;
+			remoteInfo = "NSString+Color";
+		};
+		BD294B56694A693DAD585C36B31E3E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5661D9072071703F6A89F9F0819BBA02;
+			remoteInfo = GONMarkupParser;
+		};
+		EA738CD65F3E9B4009A5DD3C5D42E070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5661D9072071703F6A89F9F0819BBA02;
+			remoteInfo = GONMarkupParser;
+		};
+		F6C350EBB36566C74F19D7DA78247B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5661D9072071703F6A89F9F0819BBA02;
+			remoteInfo = GONMarkupParser;
+		};
+		FF70461967E54937F43473801DC19C46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A3DFBC332258F4A2126409E8DF00E8C;
+			remoteInfo = "NSString+Color";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0879646854C15F9AC72D992A96E3FC8E /* GONMarkupList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupList.h; path = Classes/GONMarkupList.h; sourceTree = "<group>"; };
+		08C220A765D64DE605459390B83D29B7 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A838590A0D7F479DD6483FD26987267 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		0DBB85A0461610B9E2BCC73347C70148 /* GONMarkupParserUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupParserUtils.h; path = Classes/GONMarkupParserUtils.h; sourceTree = "<group>"; };
+		106036723B10C8844991DF17E1971BF4 /* NSString+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Color.h"; path = "Classes/NSString+Color.h"; sourceTree = "<group>"; };
+		142BEB35579E5AF752C60FE2CDEE435B /* Pods-03.NSAttributedString-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-03.NSAttributedString-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14CEDC2CC572964D995D3BA947404688 /* GONMarkup+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GONMarkup+Private.h"; path = "Classes/GONMarkup+Private.h"; sourceTree = "<group>"; };
+		14E210DCC344F123932173BAD2F1A59C /* GONMarkupParser_All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupParser_All.h; path = Classes/GONMarkupParser_All.h; sourceTree = "<group>"; };
+		15CE54B58EAC596A6C3117C4174CD892 /* libPods-03.NSAttributedStringTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-03.NSAttributedStringTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7CCF5DC6B3EFE845FC17526F3CD2FA /* GONMarkupLineStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupLineStyle.h; path = Classes/GONMarkupLineStyle.h; sourceTree = "<group>"; };
+		1F9520D37300A96F3A083C936106482C /* Pods-03.NSAttributedStringTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-03.NSAttributedStringTests.release.xcconfig"; sourceTree = "<group>"; };
+		211EF96606FD7ECBE58FD441B5FDF0B8 /* GONMarkupParserManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupParserManager.h; path = Classes/GONMarkupParserManager.h; sourceTree = "<group>"; };
+		231C0240D70B648EB57C7BBD2A02E364 /* GONMarkupFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupFont.h; path = Classes/GONMarkupFont.h; sourceTree = "<group>"; };
+		238FFBCE8DA4B6403517425731FD1F9A /* GONMarkupParserUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupParserUtils.m; path = Classes/GONMarkupParserUtils.m; sourceTree = "<group>"; };
+		2693C808B4CCC827B409E6CFD7FF3033 /* GONMarkupColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupColor.h; path = Classes/GONMarkupColor.h; sourceTree = "<group>"; };
+		2773B3FF40109288B756A9F9912AC2A3 /* GONMarkupParserManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupParserManager.m; path = Classes/GONMarkupParserManager.m; sourceTree = "<group>"; };
+		28DE0AFD16EEA06BE5BFF2731D5A9A9F /* GONMarkupColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupColor.m; path = Classes/GONMarkupColor.m; sourceTree = "<group>"; };
+		29303240D33FDCFA53A701CC3410CDEF /* GONMarkupLineBreak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupLineBreak.m; path = Classes/GONMarkupLineBreak.m; sourceTree = "<group>"; };
+		2CD11166D97112672C5F851F503C0F7E /* Pods-03.NSAttributedStringTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-03.NSAttributedStringTests-resources.sh"; sourceTree = "<group>"; };
+		2E8562D56E5CE64425A4B154EBE92BD3 /* GONMarkupBold.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupBold.h; path = Classes/GONMarkupBold.h; sourceTree = "<group>"; };
+		2EDF76A8119845358CE61A547877058C /* GONMarkupAlignment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupAlignment.h; path = Classes/GONMarkupAlignment.h; sourceTree = "<group>"; };
+		301688CBE5342E22CDF4A19C4F5473E5 /* GONMarkupReset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupReset.m; path = Classes/GONMarkupReset.m; sourceTree = "<group>"; };
+		316109454B9A7A7BB8B53BF4091601DB /* NSString+Color-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Color-prefix.pch"; sourceTree = "<group>"; };
+		3421AF30E41B90B71248C1CD8ABBE58B /* GONMarkupReset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupReset.h; path = Classes/GONMarkupReset.h; sourceTree = "<group>"; };
+		3B25E7FAC2415A60B659E6132E5166CF /* GONMarkupDefaultMarkups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupDefaultMarkups.h; path = Classes/GONMarkupDefaultMarkups.h; sourceTree = "<group>"; };
+		4BEC5EB5D2BA589ADF0877D34FB81E1F /* GONMarkupFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupFont.m; path = Classes/GONMarkupFont.m; sourceTree = "<group>"; };
+		4D20C16CA7394DAC6F8A0A75F522DB30 /* GONMarkupNamedFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupNamedFont.m; path = Classes/GONMarkupNamedFont.m; sourceTree = "<group>"; };
+		4F32D36A578107ACC41F9FDD25701466 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		4F5911A86CBE3C509CE6672C6B576C29 /* GONMarkupAnchor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupAnchor.h; path = Classes/GONMarkupAnchor.h; sourceTree = "<group>"; };
+		4FB2087380B90F6DDA296873CB7EFBEF /* GONMarkupBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupBlock.m; path = Classes/GONMarkupBlock.m; sourceTree = "<group>"; };
+		53B090115FC3015B7BFC3A7ADF2483DD /* GONMarkupAnchor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupAnchor.m; path = Classes/GONMarkupAnchor.m; sourceTree = "<group>"; };
+		54474B1CCE3A38704D27004152DEB964 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		54CB00DE1DA813F168522123CCF1D3BB /* GONMarkupItalic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupItalic.m; path = Classes/GONMarkupItalic.m; sourceTree = "<group>"; };
+		574C2B6E1A717D9E282F76E06C8E7D45 /* GONMarkupParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupParser.m; path = Classes/GONMarkupParser.m; sourceTree = "<group>"; };
+		59C24422B9B322F4085A1B96795909D0 /* GONMarkupDec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupDec.h; path = Classes/GONMarkupDec.h; sourceTree = "<group>"; };
+		5B74E493DB7ECD7E86C31D63BD330039 /* Pods-03.NSAttributedStringTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-03.NSAttributedStringTests-dummy.m"; sourceTree = "<group>"; };
+		5BFB95B0977FD4B15BFFA7C14A465029 /* NSString+Color-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Color-dummy.m"; sourceTree = "<group>"; };
+		5D256F681E904C55D72228065E81C3B6 /* GONMarkupItalic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupItalic.h; path = Classes/GONMarkupItalic.h; sourceTree = "<group>"; };
+		68C6870D459DAA1D60E7AA1C950CC843 /* Pods-03.NSAttributedStringTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-03.NSAttributedStringTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7142BC2F1E0C348A31AB0776EDC5D4E7 /* Pods-03.NSAttributedString-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-03.NSAttributedString-acknowledgements.plist"; sourceTree = "<group>"; };
+		71F6B7B1EF645ABF11A4683D788127E8 /* Pods-03.NSAttributedString-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-03.NSAttributedString-resources.sh"; sourceTree = "<group>"; };
+		750CE2407D99028E43AC281A5A6BF664 /* Pods-03.NSAttributedString.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-03.NSAttributedString.debug.xcconfig"; sourceTree = "<group>"; };
+		763A17D975FEF54B3F57FD47B6469F47 /* GONMarkupList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupList.m; path = Classes/GONMarkupList.m; sourceTree = "<group>"; };
+		7652B083918AD02837DB99945B05858F /* GONMarkupAlignment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupAlignment.m; path = Classes/GONMarkupAlignment.m; sourceTree = "<group>"; };
+		76A73AEE9D9C061763EB4859EB5C7444 /* GONMarkupFontTraits.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupFontTraits.m; path = Classes/GONMarkupFontTraits.m; sourceTree = "<group>"; };
+		79EEBEE9708296367E0967237976D724 /* NSString+Color-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSString+Color-Private.xcconfig"; sourceTree = "<group>"; };
+		7AF5FB42D985648932F155EBA9AC1C26 /* GONMarkupSimple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupSimple.m; path = Classes/GONMarkupSimple.m; sourceTree = "<group>"; };
+		7CA502CB6BA4FD4CFBE13EA300A2C999 /* GONMarkupInc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupInc.m; path = Classes/GONMarkupInc.m; sourceTree = "<group>"; };
+		7CBD97DE29AA25A7CF16125A554D70A0 /* Pods-03.NSAttributedString.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-03.NSAttributedString.release.xcconfig"; sourceTree = "<group>"; };
+		7D36D9A3ED3E41FCD2BC0E7E45077316 /* UITextField+GONMarkupParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+GONMarkupParser.h"; path = "Classes/UITextField+GONMarkupParser.h"; sourceTree = "<group>"; };
+		834EE4C4C2BC6C224BED186BE379E3A4 /* GONMarkupParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupParser.h; path = Classes/GONMarkupParser.h; sourceTree = "<group>"; };
+		83BC1C9DF0E420E10DBE8CAB84FECE21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8435931A2AB2A9381030639D4391A4F2 /* GONMarkupNamedColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupNamedColor.m; path = Classes/GONMarkupNamedColor.m; sourceTree = "<group>"; };
+		85FDD83536EB3AD1FFD25F2C5A03FB55 /* UITextView+GONMarkupParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+GONMarkupParser.h"; path = "Classes/UITextView+GONMarkupParser.h"; sourceTree = "<group>"; };
+		89F81F57329A7E19B252BC89A95FA175 /* UILabel+GONMarkupParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+GONMarkupParser.m"; path = "Classes/UILabel+GONMarkupParser.m"; sourceTree = "<group>"; };
+		8AFB9B924FE1122554EAF4A684DEF7D0 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D5B05202EEDECEAE7380AD40D55B74A /* GONMarkupParagrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupParagrap.h; path = Classes/GONMarkupParagrap.h; sourceTree = "<group>"; };
+		912C5C7B5EF18CB88B33479EC58BB01A /* GONMarkupFontTraits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupFontTraits.h; path = Classes/GONMarkupFontTraits.h; sourceTree = "<group>"; };
+		999247A52058E902732150930A6824A7 /* GONMarkupNamedColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupNamedColor.h; path = Classes/GONMarkupNamedColor.h; sourceTree = "<group>"; };
+		9BA428EFEBE461DA963B5033D1D19BA9 /* libGONMarkupParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGONMarkupParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB3EC6F0E21E73FA317B87C947D0167 /* GONMarkup+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GONMarkup+Private.m"; path = "Classes/GONMarkup+Private.m"; sourceTree = "<group>"; };
+		A3A072A632B9593E874B810473798C1E /* GONMarkup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkup.m; path = Classes/GONMarkup.m; sourceTree = "<group>"; };
+		A4BECA3E105295E2A9F7384113B4299C /* NSString+Color.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "NSString+Color.xcconfig"; sourceTree = "<group>"; };
+		AB25DD7E73926959234D92E992B7332F /* GONMarkupInc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupInc.h; path = Classes/GONMarkupInc.h; sourceTree = "<group>"; };
+		AFAAED6A70DD134C006CACEE0C6ABA84 /* GONMarkupDec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupDec.m; path = Classes/GONMarkupDec.m; sourceTree = "<group>"; };
+		AFCA23DB6D27614D7E8872DF45E6A55A /* GONMarkupParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GONMarkupParser.xcconfig; sourceTree = "<group>"; };
+		B0BBAE827E58F5F31818827104084A13 /* GONMarkupParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GONMarkupParser-dummy.m"; sourceTree = "<group>"; };
+		B7284D1A4869900046A56C3698187772 /* GONMarkupTextStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupTextStyle.m; path = Classes/GONMarkupTextStyle.m; sourceTree = "<group>"; };
+		B75694921A86F326FD88E37F4CEF2D18 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		C39B9DDD6F254278B62813604D2D2F74 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		C62FEB75339395403E1185AFE6A85960 /* GONMarkupBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupBlock.h; path = Classes/GONMarkupBlock.h; sourceTree = "<group>"; };
+		C6FD60FCAADD1F196AA145A02F8256A2 /* NSString+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Color.m"; path = "Classes/NSString+Color.m"; sourceTree = "<group>"; };
+		C78B6918FF796020B190B562D807B757 /* GONMarkupBold.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupBold.m; path = Classes/GONMarkupBold.m; sourceTree = "<group>"; };
+		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9A08DFFD283CE48E4495F8B953EDD95 /* UITextField+GONMarkupParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+GONMarkupParser.m"; path = "Classes/UITextField+GONMarkupParser.m"; sourceTree = "<group>"; };
+		CC2B043032A96819571855D021C73CE7 /* GONMarkupTextStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupTextStyle.h; path = Classes/GONMarkupTextStyle.h; sourceTree = "<group>"; };
+		CCF390BE0697084084CA8840EE5F3E99 /* GONMarkup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkup.h; path = Classes/GONMarkup.h; sourceTree = "<group>"; };
+		CE098B34B4B76C646DA5B05CE060F84E /* GONMarkupListItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupListItem.h; path = Classes/GONMarkupListItem.h; sourceTree = "<group>"; };
+		D42ECBA44F8F3373C46FFECA955F5981 /* GONMarkupLineStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupLineStyle.m; path = Classes/GONMarkupLineStyle.m; sourceTree = "<group>"; };
+		D8F8C0FB0D3A4D48CA3C5C9354F9870B /* GONMarkupParser_Categories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupParser_Categories.h; path = Classes/GONMarkupParser_Categories.h; sourceTree = "<group>"; };
+		DA12D3F80018BF082B94FB3A1C26FBB6 /* Pods-03.NSAttributedStringTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-03.NSAttributedStringTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2A78E59999D68E0528E4A266BB79142 /* GONMarkupLineBreak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupLineBreak.h; path = Classes/GONMarkupLineBreak.h; sourceTree = "<group>"; };
+		E43A898CCE0528AB9D9EDFBC0479383B /* GONMarkupParagrap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupParagrap.m; path = Classes/GONMarkupParagrap.m; sourceTree = "<group>"; };
+		E46808431AA4BCD0ECFE79F1F872D690 /* GONMarkupNamedFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupNamedFont.h; path = Classes/GONMarkupNamedFont.h; sourceTree = "<group>"; };
+		E76783A4F66357C316BCEB57A0220299 /* libPods-03.NSAttributedString.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-03.NSAttributedString.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CD1F1F9A80BCDD3688273E13862382 /* Pods-03.NSAttributedStringTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-03.NSAttributedStringTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9FCF8E7D6BA242C384E77B86F2FA59E /* GONMarkupSimple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GONMarkupSimple.h; path = Classes/GONMarkupSimple.h; sourceTree = "<group>"; };
+		EA454D37690DA43A94723A31D2213D4D /* GONMarkupParser-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GONMarkupParser-Private.xcconfig"; sourceTree = "<group>"; };
+		EBFEC987D79C383D9930CCF9DE00E3C7 /* UILabel+GONMarkupParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+GONMarkupParser.h"; path = "Classes/UILabel+GONMarkupParser.h"; sourceTree = "<group>"; };
+		ED784B8409F1344DD53426A30B69619D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0653B5A6BED71AB2A5BD243450D606A /* Pods-03.NSAttributedString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-03.NSAttributedString-dummy.m"; sourceTree = "<group>"; };
+		F7262C78B0033C8AAE0A7DE2546A230C /* UITextView+GONMarkupParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+GONMarkupParser.m"; path = "Classes/UITextView+GONMarkupParser.m"; sourceTree = "<group>"; };
+		FF3BAD9AF22EB17EB7B4CBE8B036CFB2 /* GONMarkupListItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GONMarkupListItem.m; path = Classes/GONMarkupListItem.m; sourceTree = "<group>"; };
+		FF66F614C1AFC9474822BCB173DC3A36 /* GONMarkupParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GONMarkupParser-prefix.pch"; sourceTree = "<group>"; };
+		FFCDA7239108FD2915DD02A0AA28785F /* libNSString+Color.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libNSString+Color.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		430C5C51FC705AD5FC271E06F9A79C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8716D76018C7E71A5248B1FED005E33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5343383C657660039EDDA63231143993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF87C0F6D75AECE93A05D739E16D7D5 /* CoreText.framework in Frameworks */,
+				6292ACCF5C8A3CC15C0DA6565D608CE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858782CE7F412DDF30387BBFF5B28B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB3B2DEAAC0FD5B89142975BBE62EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E314BEAF3772E1FF449241D866D08CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF572AD29330B3430BC74A873A9D56F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A22909230CBC3056EAB214CFCF787B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCACEE4D86BE7BA7AE7D809A062B97E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F17134087DD65FFF94F981825CFA9CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AFB9B924FE1122554EAF4A684DEF7D0 /* Pods-acknowledgements.markdown */,
+				08C220A765D64DE605459390B83D29B7 /* Pods-acknowledgements.plist */,
+				C39B9DDD6F254278B62813604D2D2F74 /* Pods-dummy.m */,
+				0A838590A0D7F479DD6483FD26987267 /* Pods-resources.sh */,
+				B75694921A86F326FD88E37F4CEF2D18 /* Pods.debug.xcconfig */,
+				4F32D36A578107ACC41F9FDD25701466 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		21FF83D38BE2E1D5499360B06000D8F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54474B1CCE3A38704D27004152DEB964 /* CoreText.framework */,
+				83BC1C9DF0E420E10DBE8CAB84FECE21 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		24DC034396D935398AFDC699CD92C2AB /* Pods-03.NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				142BEB35579E5AF752C60FE2CDEE435B /* Pods-03.NSAttributedString-acknowledgements.markdown */,
+				7142BC2F1E0C348A31AB0776EDC5D4E7 /* Pods-03.NSAttributedString-acknowledgements.plist */,
+				F0653B5A6BED71AB2A5BD243450D606A /* Pods-03.NSAttributedString-dummy.m */,
+				71F6B7B1EF645ABF11A4683D788127E8 /* Pods-03.NSAttributedString-resources.sh */,
+				750CE2407D99028E43AC281A5A6BF664 /* Pods-03.NSAttributedString.debug.xcconfig */,
+				7CBD97DE29AA25A7CF16125A554D70A0 /* Pods-03.NSAttributedString.release.xcconfig */,
+			);
+			name = "Pods-03.NSAttributedString";
+			path = "Target Support Files/Pods-03.NSAttributedString";
+			sourceTree = "<group>";
+		};
+		2A8A43ED7A48484E848C13E22B7D2958 /* Pods-03.NSAttributedStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				68C6870D459DAA1D60E7AA1C950CC843 /* Pods-03.NSAttributedStringTests-acknowledgements.markdown */,
+				DA12D3F80018BF082B94FB3A1C26FBB6 /* Pods-03.NSAttributedStringTests-acknowledgements.plist */,
+				5B74E493DB7ECD7E86C31D63BD330039 /* Pods-03.NSAttributedStringTests-dummy.m */,
+				2CD11166D97112672C5F851F503C0F7E /* Pods-03.NSAttributedStringTests-resources.sh */,
+				E8CD1F1F9A80BCDD3688273E13862382 /* Pods-03.NSAttributedStringTests.debug.xcconfig */,
+				1F9520D37300A96F3A083C936106482C /* Pods-03.NSAttributedStringTests.release.xcconfig */,
+			);
+			name = "Pods-03.NSAttributedStringTests";
+			path = "Target Support Files/Pods-03.NSAttributedStringTests";
+			sourceTree = "<group>";
+		};
+		2F3FD073662D2D9D869FC54759D2B0D3 /* NSString+Color */ = {
+			isa = PBXGroup;
+			children = (
+				106036723B10C8844991DF17E1971BF4 /* NSString+Color.h */,
+				C6FD60FCAADD1F196AA145A02F8256A2 /* NSString+Color.m */,
+				8CF7A0E4F35DF46F5F42BB19F10FB1CB /* Support Files */,
+			);
+			path = "NSString+Color";
+			sourceTree = "<group>";
+		};
+		2F414954F87ED957BE121A1660094A49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F838716BFFA30072BE0DADD08586A5D /* GONMarkupParser */,
+				2F3FD073662D2D9D869FC54759D2B0D3 /* NSString+Color */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		447897FA6B8E4E6C6FEFAB2F681BE246 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F17134087DD65FFF94F981825CFA9CB /* Pods */,
+				24DC034396D935398AFDC699CD92C2AB /* Pods-03.NSAttributedString */,
+				2A8A43ED7A48484E848C13E22B7D2958 /* Pods-03.NSAttributedStringTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F838716BFFA30072BE0DADD08586A5D /* GONMarkupParser */ = {
+			isa = PBXGroup;
+			children = (
+				CCF390BE0697084084CA8840EE5F3E99 /* GONMarkup.h */,
+				A3A072A632B9593E874B810473798C1E /* GONMarkup.m */,
+				14CEDC2CC572964D995D3BA947404688 /* GONMarkup+Private.h */,
+				9CB3EC6F0E21E73FA317B87C947D0167 /* GONMarkup+Private.m */,
+				2EDF76A8119845358CE61A547877058C /* GONMarkupAlignment.h */,
+				7652B083918AD02837DB99945B05858F /* GONMarkupAlignment.m */,
+				4F5911A86CBE3C509CE6672C6B576C29 /* GONMarkupAnchor.h */,
+				53B090115FC3015B7BFC3A7ADF2483DD /* GONMarkupAnchor.m */,
+				C62FEB75339395403E1185AFE6A85960 /* GONMarkupBlock.h */,
+				4FB2087380B90F6DDA296873CB7EFBEF /* GONMarkupBlock.m */,
+				2E8562D56E5CE64425A4B154EBE92BD3 /* GONMarkupBold.h */,
+				C78B6918FF796020B190B562D807B757 /* GONMarkupBold.m */,
+				2693C808B4CCC827B409E6CFD7FF3033 /* GONMarkupColor.h */,
+				28DE0AFD16EEA06BE5BFF2731D5A9A9F /* GONMarkupColor.m */,
+				59C24422B9B322F4085A1B96795909D0 /* GONMarkupDec.h */,
+				AFAAED6A70DD134C006CACEE0C6ABA84 /* GONMarkupDec.m */,
+				3B25E7FAC2415A60B659E6132E5166CF /* GONMarkupDefaultMarkups.h */,
+				231C0240D70B648EB57C7BBD2A02E364 /* GONMarkupFont.h */,
+				4BEC5EB5D2BA589ADF0877D34FB81E1F /* GONMarkupFont.m */,
+				912C5C7B5EF18CB88B33479EC58BB01A /* GONMarkupFontTraits.h */,
+				76A73AEE9D9C061763EB4859EB5C7444 /* GONMarkupFontTraits.m */,
+				AB25DD7E73926959234D92E992B7332F /* GONMarkupInc.h */,
+				7CA502CB6BA4FD4CFBE13EA300A2C999 /* GONMarkupInc.m */,
+				5D256F681E904C55D72228065E81C3B6 /* GONMarkupItalic.h */,
+				54CB00DE1DA813F168522123CCF1D3BB /* GONMarkupItalic.m */,
+				E2A78E59999D68E0528E4A266BB79142 /* GONMarkupLineBreak.h */,
+				29303240D33FDCFA53A701CC3410CDEF /* GONMarkupLineBreak.m */,
+				1C7CCF5DC6B3EFE845FC17526F3CD2FA /* GONMarkupLineStyle.h */,
+				D42ECBA44F8F3373C46FFECA955F5981 /* GONMarkupLineStyle.m */,
+				0879646854C15F9AC72D992A96E3FC8E /* GONMarkupList.h */,
+				763A17D975FEF54B3F57FD47B6469F47 /* GONMarkupList.m */,
+				CE098B34B4B76C646DA5B05CE060F84E /* GONMarkupListItem.h */,
+				FF3BAD9AF22EB17EB7B4CBE8B036CFB2 /* GONMarkupListItem.m */,
+				999247A52058E902732150930A6824A7 /* GONMarkupNamedColor.h */,
+				8435931A2AB2A9381030639D4391A4F2 /* GONMarkupNamedColor.m */,
+				E46808431AA4BCD0ECFE79F1F872D690 /* GONMarkupNamedFont.h */,
+				4D20C16CA7394DAC6F8A0A75F522DB30 /* GONMarkupNamedFont.m */,
+				8D5B05202EEDECEAE7380AD40D55B74A /* GONMarkupParagrap.h */,
+				E43A898CCE0528AB9D9EDFBC0479383B /* GONMarkupParagrap.m */,
+				834EE4C4C2BC6C224BED186BE379E3A4 /* GONMarkupParser.h */,
+				574C2B6E1A717D9E282F76E06C8E7D45 /* GONMarkupParser.m */,
+				211EF96606FD7ECBE58FD441B5FDF0B8 /* GONMarkupParserManager.h */,
+				2773B3FF40109288B756A9F9912AC2A3 /* GONMarkupParserManager.m */,
+				0DBB85A0461610B9E2BCC73347C70148 /* GONMarkupParserUtils.h */,
+				238FFBCE8DA4B6403517425731FD1F9A /* GONMarkupParserUtils.m */,
+				14E210DCC344F123932173BAD2F1A59C /* GONMarkupParser_All.h */,
+				D8F8C0FB0D3A4D48CA3C5C9354F9870B /* GONMarkupParser_Categories.h */,
+				3421AF30E41B90B71248C1CD8ABBE58B /* GONMarkupReset.h */,
+				301688CBE5342E22CDF4A19C4F5473E5 /* GONMarkupReset.m */,
+				E9FCF8E7D6BA242C384E77B86F2FA59E /* GONMarkupSimple.h */,
+				7AF5FB42D985648932F155EBA9AC1C26 /* GONMarkupSimple.m */,
+				CC2B043032A96819571855D021C73CE7 /* GONMarkupTextStyle.h */,
+				B7284D1A4869900046A56C3698187772 /* GONMarkupTextStyle.m */,
+				EBFEC987D79C383D9930CCF9DE00E3C7 /* UILabel+GONMarkupParser.h */,
+				89F81F57329A7E19B252BC89A95FA175 /* UILabel+GONMarkupParser.m */,
+				7D36D9A3ED3E41FCD2BC0E7E45077316 /* UITextField+GONMarkupParser.h */,
+				C9A08DFFD283CE48E4495F8B953EDD95 /* UITextField+GONMarkupParser.m */,
+				85FDD83536EB3AD1FFD25F2C5A03FB55 /* UITextView+GONMarkupParser.h */,
+				F7262C78B0033C8AAE0A7DE2546A230C /* UITextView+GONMarkupParser.m */,
+				AE717F935A9D24341BF0C8D0245AC8A0 /* Support Files */,
+			);
+			path = GONMarkupParser;
+			sourceTree = "<group>";
+		};
+		5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21FF83D38BE2E1D5499360B06000D8F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
+				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
+				2F414954F87ED957BE121A1660094A49 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				447897FA6B8E4E6C6FEFAB2F681BE246 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF7A0E4F35DF46F5F42BB19F10FB1CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4BECA3E105295E2A9F7384113B4299C /* NSString+Color.xcconfig */,
+				79EEBEE9708296367E0967237976D724 /* NSString+Color-Private.xcconfig */,
+				5BFB95B0977FD4B15BFFA7C14A465029 /* NSString+Color-dummy.m */,
+				316109454B9A7A7BB8B53BF4091601DB /* NSString+Color-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NSString+Color";
+			sourceTree = "<group>";
+		};
+		AE717F935A9D24341BF0C8D0245AC8A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFCA23DB6D27614D7E8872DF45E6A55A /* GONMarkupParser.xcconfig */,
+				EA454D37690DA43A94723A31D2213D4D /* GONMarkupParser-Private.xcconfig */,
+				B0BBAE827E58F5F31818827104084A13 /* GONMarkupParser-dummy.m */,
+				FF66F614C1AFC9474822BCB173DC3A36 /* GONMarkupParser-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GONMarkupParser";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BA428EFEBE461DA963B5033D1D19BA9 /* libGONMarkupParser.a */,
+				FFCDA7239108FD2915DD02A0AA28785F /* libNSString+Color.a */,
+				ED784B8409F1344DD53426A30B69619D /* libPods.a */,
+				E76783A4F66357C316BCEB57A0220299 /* libPods-03.NSAttributedString.a */,
+				15CE54B58EAC596A6C3117C4174CD892 /* libPods-03.NSAttributedStringTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05EAAE9D04540FC59BF7532F2F6FDBE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7BB14072B6335028E27933D2B662C9 /* GONMarkup+Private.h in Headers */,
+				3663F075C3B37BB1876D3EABC77BC741 /* GONMarkup.h in Headers */,
+				121811FE52F98334099AF7DED4977584 /* GONMarkupAlignment.h in Headers */,
+				C1A8730EF367D35F42EB1898F9AD82A6 /* GONMarkupAnchor.h in Headers */,
+				07560BACA1CACEFBAD7D4E0D197A4953 /* GONMarkupBlock.h in Headers */,
+				01ACAFA0CB198113A214C8307EFCF8B9 /* GONMarkupBold.h in Headers */,
+				5C40EECEA77E27EB227BA61BECB81BC2 /* GONMarkupColor.h in Headers */,
+				9AA07EE65F53FBE8E1C896C07A7FE04D /* GONMarkupDec.h in Headers */,
+				67D248FBB98485BBC1A15EF263D6FAF0 /* GONMarkupDefaultMarkups.h in Headers */,
+				6419151B9C321EF04B9E512807FA40E3 /* GONMarkupFont.h in Headers */,
+				93FD1FFCB416242E83F672360C739A99 /* GONMarkupFontTraits.h in Headers */,
+				EAEA0CD5F84AF09E90F5CFB93B7698C8 /* GONMarkupInc.h in Headers */,
+				96FB40EF1A7CCC16741A98E12ACDC13F /* GONMarkupItalic.h in Headers */,
+				B198C7FFE889506B1D7EDAB725DDE0CA /* GONMarkupLineBreak.h in Headers */,
+				D8DF9B9D4AC10ABAF5BFA60ED5D6E5B0 /* GONMarkupLineStyle.h in Headers */,
+				BD34E7A84AACBFC12A0434E1A522D38D /* GONMarkupList.h in Headers */,
+				2D8C6656E0EE0EE4467F7746EBF3512D /* GONMarkupListItem.h in Headers */,
+				63086D55EE26F01A727A976A5E2ED180 /* GONMarkupNamedColor.h in Headers */,
+				87BB65CB3FEB65508F7859A30B6C6190 /* GONMarkupNamedFont.h in Headers */,
+				AD00CBD594966C268AEDF97C6688D6D1 /* GONMarkupParagrap.h in Headers */,
+				164B44B11E9DEE0D4A705F3D4F4E9706 /* GONMarkupParser.h in Headers */,
+				AFF863B371C1CD680B99B7EC1E0A4CA3 /* GONMarkupParserManager.h in Headers */,
+				50722EEE76DBD1473BE9389E125AD36D /* GONMarkupParserUtils.h in Headers */,
+				4D796456E907598EFE5592AAF58FEE90 /* GONMarkupParser_All.h in Headers */,
+				992097FDCA4AB03C839E96B1BCFE530B /* GONMarkupParser_Categories.h in Headers */,
+				C3C020F179BE05317740D2BA715BEFCF /* GONMarkupReset.h in Headers */,
+				6F40DBD2E9CA5662A746F7477C870280 /* GONMarkupSimple.h in Headers */,
+				E13D7667B830264DBCEDF56437B4E436 /* GONMarkupTextStyle.h in Headers */,
+				8E3060512676D6CF74450FF08C3D5CCD /* UILabel+GONMarkupParser.h in Headers */,
+				407681E8B063B7EF32278A190BB0DCD1 /* UITextField+GONMarkupParser.h in Headers */,
+				6BEDC18A2ED6BBAFAF8126A6E341BE84 /* UITextView+GONMarkupParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A6B6D941F8DCB924530BE3DEC215DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56C8E6D2F8127FBD4791F5457343C6A /* NSString+Color.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		277B0C4BF83B4D8D1DEC8548033D7128 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B44C7CFF0E028838E5ABA692A63598 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				5830286D6C84B727E502C3D7579F8FA8 /* Sources */,
+				E314BEAF3772E1FF449241D866D08CE9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002080037AC3497AB1C36FEFD410B5E8 /* PBXTargetDependency */,
+				6D5561FF4651A2F99537CC16084D1B7D /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = ED784B8409F1344DD53426A30B69619D /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5661D9072071703F6A89F9F0819BBA02 /* GONMarkupParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF67C79F525A4D52D345E64AEC965468 /* Build configuration list for PBXNativeTarget "GONMarkupParser" */;
+			buildPhases = (
+				A0B1E3B55620BC2955E2D9269FBB27B0 /* Sources */,
+				5343383C657660039EDDA63231143993 /* Frameworks */,
+				05EAAE9D04540FC59BF7532F2F6FDBE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C59BEA2016F7A848AEC1307A5EF935E0 /* PBXTargetDependency */,
+			);
+			name = GONMarkupParser;
+			productName = GONMarkupParser;
+			productReference = 9BA428EFEBE461DA963B5033D1D19BA9 /* libGONMarkupParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A3DFBC332258F4A2126409E8DF00E8C /* NSString+Color */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E82E4F20FFE4CEBCBEEFC1F1E743DFA /* Build configuration list for PBXNativeTarget "NSString+Color" */;
+			buildPhases = (
+				0BC04B2E9F9F147E92CD952FA854F5DA /* Sources */,
+				430C5C51FC705AD5FC271E06F9A79C09 /* Frameworks */,
+				58A6B6D941F8DCB924530BE3DEC215DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSString+Color";
+			productName = "NSString+Color";
+			productReference = FFCDA7239108FD2915DD02A0AA28785F /* libNSString+Color.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8AA74D016B36F93B58EA3ADA09EB46DA /* Pods-03.NSAttributedString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8BE0EBE130C959A2655B853A40C63F /* Build configuration list for PBXNativeTarget "Pods-03.NSAttributedString" */;
+			buildPhases = (
+				7C4C70070B60D2AF76FD5200E8B7EC88 /* Sources */,
+				F9A22909230CBC3056EAB214CFCF787B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32575C06BAF5D9B2C99F02CBA8080D56 /* PBXTargetDependency */,
+				75BA625135AFB066FDF865FD0DFEFC12 /* PBXTargetDependency */,
+			);
+			name = "Pods-03.NSAttributedString";
+			productName = "Pods-03.NSAttributedString";
+			productReference = E76783A4F66357C316BCEB57A0220299 /* libPods-03.NSAttributedString.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B07E9DA8E9FB7B9BE7166A9B6F67E7E0 /* Pods-03.NSAttributedStringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7607C89244C999EFBCD028F0082842 /* Build configuration list for PBXNativeTarget "Pods-03.NSAttributedStringTests" */;
+			buildPhases = (
+				1C0EF34D2B7D2F0821FA2EC147F37DA8 /* Sources */,
+				858782CE7F412DDF30387BBFF5B28B56 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35285A816AB3AD35FF497E7A028CD995 /* PBXTargetDependency */,
+				9B4E38D4D495ED8B2562F2D884FF0B6C /* PBXTargetDependency */,
+			);
+			name = "Pods-03.NSAttributedStringTests";
+			productName = "Pods-03.NSAttributedStringTests";
+			productReference = 15CE54B58EAC596A6C3117C4174CD892 /* libPods-03.NSAttributedStringTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5661D9072071703F6A89F9F0819BBA02 /* GONMarkupParser */,
+				7A3DFBC332258F4A2126409E8DF00E8C /* NSString+Color */,
+				277B0C4BF83B4D8D1DEC8548033D7128 /* Pods */,
+				8AA74D016B36F93B58EA3ADA09EB46DA /* Pods-03.NSAttributedString */,
+				B07E9DA8E9FB7B9BE7166A9B6F67E7E0 /* Pods-03.NSAttributedStringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC04B2E9F9F147E92CD952FA854F5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243F82F2866B62C3C6D2E7EA58427B7B /* NSString+Color-dummy.m in Sources */,
+				AF65B6EA39B58B39EC6D55AEE327FD05 /* NSString+Color.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0EF34D2B7D2F0821FA2EC147F37DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3451A851DA3ACF3A7E2E5863AE9329A2 /* Pods-03.NSAttributedStringTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5830286D6C84B727E502C3D7579F8FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F242DA4E60FD57FC807320EB0F1423F4 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C4C70070B60D2AF76FD5200E8B7EC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AF1F525A6E351803E709BA624A62C3 /* Pods-03.NSAttributedString-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B1E3B55620BC2955E2D9269FBB27B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A271C20AE9AEBBF21E07C6376B608D63 /* GONMarkup+Private.m in Sources */,
+				EDE587A88F16981A5692B654C1103812 /* GONMarkup.m in Sources */,
+				88FAE85BDF06D07C7CF414E76B778A69 /* GONMarkupAlignment.m in Sources */,
+				6DE0CAE3C4F5E0A3EE928DB6313325E4 /* GONMarkupAnchor.m in Sources */,
+				7E2A9A21B3D1021B5C368D1ECEBA4562 /* GONMarkupBlock.m in Sources */,
+				4ED987B42FA8F7B5383CC265C71771BF /* GONMarkupBold.m in Sources */,
+				F0B759C8E9435F4541584FB3570D6593 /* GONMarkupColor.m in Sources */,
+				5C558FBE0425E3BE71BA98D2A5EB26D6 /* GONMarkupDec.m in Sources */,
+				B5DC3A10C2787D5E28B507F52B5CD3EA /* GONMarkupFont.m in Sources */,
+				FFFAA4AF07678A85A0FBC4D05B73CD66 /* GONMarkupFontTraits.m in Sources */,
+				FAB5EFF6674EE7C4F3301D19CF99EE80 /* GONMarkupInc.m in Sources */,
+				DF01185BDF07ACA4D9546CDF4BD19269 /* GONMarkupItalic.m in Sources */,
+				91E0DE727901403F721572C4102ABB7F /* GONMarkupLineBreak.m in Sources */,
+				19DF5319F1BD8F340FEB92AB742CBF14 /* GONMarkupLineStyle.m in Sources */,
+				BD8F10675057C91F4E66AD3FBE576E43 /* GONMarkupList.m in Sources */,
+				EA1EAC4515CB5CD8F612F27F3F518A3B /* GONMarkupListItem.m in Sources */,
+				D5CCD94BF57910967667889CF9E003E5 /* GONMarkupNamedColor.m in Sources */,
+				5244CBC87E4EC58F6CCB09666605F7B1 /* GONMarkupNamedFont.m in Sources */,
+				34EBE5302311F79D0E3B63256D9E5A9A /* GONMarkupParagrap.m in Sources */,
+				3C7D56DB0E4351300F66E938015D6A02 /* GONMarkupParser-dummy.m in Sources */,
+				16BDB29EB18A735486CDC0C6C824A5E9 /* GONMarkupParser.m in Sources */,
+				5E59FEA17ECD6B5336A8E0CBCCAA0D78 /* GONMarkupParserManager.m in Sources */,
+				761EF9592A7E8F714EC76A72C625DAA7 /* GONMarkupParserUtils.m in Sources */,
+				DC56B5291093F207E2F320FC6961AB2D /* GONMarkupReset.m in Sources */,
+				D36C879C95711B771153454D57D645B8 /* GONMarkupSimple.m in Sources */,
+				F331DEB6E5BF54D957439DD4582515EC /* GONMarkupTextStyle.m in Sources */,
+				CAC8B92249BF36C309E24D8F86581EFD /* UILabel+GONMarkupParser.m in Sources */,
+				B088D6F4B83019CD2ACAAF1D025E0AFF /* UITextField+GONMarkupParser.m in Sources */,
+				3D2032A37BC4089F5D2EC9F74B46AD6B /* UITextView+GONMarkupParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002080037AC3497AB1C36FEFD410B5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GONMarkupParser;
+			target = 5661D9072071703F6A89F9F0819BBA02 /* GONMarkupParser */;
+			targetProxy = BD294B56694A693DAD585C36B31E3E99 /* PBXContainerItemProxy */;
+		};
+		32575C06BAF5D9B2C99F02CBA8080D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GONMarkupParser;
+			target = 5661D9072071703F6A89F9F0819BBA02 /* GONMarkupParser */;
+			targetProxy = F6C350EBB36566C74F19D7DA78247B5F /* PBXContainerItemProxy */;
+		};
+		35285A816AB3AD35FF497E7A028CD995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GONMarkupParser;
+			target = 5661D9072071703F6A89F9F0819BBA02 /* GONMarkupParser */;
+			targetProxy = EA738CD65F3E9B4009A5DD3C5D42E070 /* PBXContainerItemProxy */;
+		};
+		6D5561FF4651A2F99537CC16084D1B7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSString+Color";
+			target = 7A3DFBC332258F4A2126409E8DF00E8C /* NSString+Color */;
+			targetProxy = B768DD69CBF3CC172643599CA9F6F09E /* PBXContainerItemProxy */;
+		};
+		75BA625135AFB066FDF865FD0DFEFC12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSString+Color";
+			target = 7A3DFBC332258F4A2126409E8DF00E8C /* NSString+Color */;
+			targetProxy = B9DF1A66246CC063878557FC02AA692B /* PBXContainerItemProxy */;
+		};
+		9B4E38D4D495ED8B2562F2D884FF0B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSString+Color";
+			target = 7A3DFBC332258F4A2126409E8DF00E8C /* NSString+Color */;
+			targetProxy = FF70461967E54937F43473801DC19C46 /* PBXContainerItemProxy */;
+		};
+		C59BEA2016F7A848AEC1307A5EF935E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NSString+Color";
+			target = 7A3DFBC332258F4A2126409E8DF00E8C /* NSString+Color */;
+			targetProxy = 7218A3A0A69D53F06539B4EF2058B115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07000F60B6E7A98F69092A257F4D7B2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA454D37690DA43A94723A31D2213D4D /* GONMarkupParser-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GONMarkupParser/GONMarkupParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2696F70D7E88B7A18731E16FF9B16B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBD97DE29AA25A7CF16125A554D70A0 /* Pods-03.NSAttributedString.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2C572BB2914B52F3DB7C6BE9DD130D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA454D37690DA43A94723A31D2213D4D /* GONMarkupParser-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GONMarkupParser/GONMarkupParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		45E7124A6526D24E475A71077B1DFE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9520D37300A96F3A083C936106482C /* Pods-03.NSAttributedStringTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		48077A3537AD467D5EDE2E445D0C3301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F32D36A578107ACC41F9FDD25701466 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		48930CA1BBFEDFF5B00EECCF891B8E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79EEBEE9708296367E0967237976D724 /* NSString+Color-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSString+Color/NSString+Color-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7B6197FB7297CFEB4F7AAA0DA7A5E9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CD1F1F9A80BCDD3688273E13862382 /* Pods-03.NSAttributedStringTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E7414E93556CA9EDF7CF7E1244610FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79EEBEE9708296367E0967237976D724 /* NSString+Color-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NSString+Color/NSString+Color-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		958E2B29CC8B8CADE51D7114B2F2794B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750CE2407D99028E43AC281A5A6BF664 /* Pods-03.NSAttributedString.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3A1B1F70BBCCA0197144E66DB8B18D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B352EEC06EA1F566BA21287662A33E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6295FF0ABE383F2B76B0D406D1A5BC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75694921A86F326FD88E37F4CEF2D18 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A1B1F70BBCCA0197144E66DB8B18D5 /* Debug */,
+				B352EEC06EA1F566BA21287662A33E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E82E4F20FFE4CEBCBEEFC1F1E743DFA /* Build configuration list for PBXNativeTarget "NSString+Color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7414E93556CA9EDF7CF7E1244610FB /* Debug */,
+				48930CA1BBFEDFF5B00EECCF891B8E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B44C7CFF0E028838E5ABA692A63598 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6295FF0ABE383F2B76B0D406D1A5BC9 /* Debug */,
+				48077A3537AD467D5EDE2E445D0C3301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8BE0EBE130C959A2655B853A40C63F /* Build configuration list for PBXNativeTarget "Pods-03.NSAttributedString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958E2B29CC8B8CADE51D7114B2F2794B /* Debug */,
+				2696F70D7E88B7A18731E16FF9B16B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7607C89244C999EFBCD028F0082842 /* Build configuration list for PBXNativeTarget "Pods-03.NSAttributedStringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6197FB7297CFEB4F7AAA0DA7A5E9C4 /* Debug */,
+				45E7124A6526D24E475A71077B1DFE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF67C79F525A4D52D345E64AEC965468 /* Build configuration list for PBXNativeTarget "GONMarkupParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07000F60B6E7A98F69092A257F4D7B2B /* Debug */,
+				2C572BB2914B52F3DB7C6BE9DD130D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

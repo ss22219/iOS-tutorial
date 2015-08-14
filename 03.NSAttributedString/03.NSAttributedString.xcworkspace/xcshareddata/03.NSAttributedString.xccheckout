@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0F8C6383-F97B-477C-967E-65DAA773A3B7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>03.NSAttributedString</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1BFA802E7CB77A588454094E52AF94BA1B36E6B0</key>
+		<string>https://github.com/ss22219/iOS-tutorial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>03.NSAttributedString/03.NSAttributedString.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1BFA802E7CB77A588454094E52AF94BA1B36E6B0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ss22219/iOS-tutorial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1BFA802E7CB77A588454094E52AF94BA1B36E6B0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1BFA802E7CB77A588454094E52AF94BA1B36E6B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-tutorial</string>
+		</dict>
+	</array>
+</dict>
+</plist>
